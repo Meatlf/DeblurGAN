@@ -41,11 +41,7 @@ val:
 phase: train
 warmup_num: 3
 model:
-<<<<<<< HEAD:deBlur/DeblurGANv2/config/config.yaml
-  g_name: fpn_mobilenet
-=======
   g_name: fpn_mobilenet # g_name: fpn_inception
->>>>>>> bf14c36b70035a0b7e250fd088e2e1a35d0d2b0d:deBlur/code/DeblurGANv2/config/config.yaml
   blocks: 9
   d_name: double_gan # may be no_gan, patch_gan, double_gan, multi_scale
   d_layers: 3

@@ -99,7 +99,12 @@ Q:
 ```shell
 ImportError: cannot import name 'SSIM' from 'ssim' 
 ```
-A:需要参考[cannot import name 'SSIM' #9](https://github.com/KupynOrest/DeblurGAN/issues/9)中qinghua2016的回答。
+A:
+
+```shell
+python3 -m pip install pyssim
+```
+
 **Q**：如何解决没有visdom包的错误？
 
 **A**：
