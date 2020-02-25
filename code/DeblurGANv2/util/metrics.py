@@ -21,6 +21,7 @@ def create_window(window_size, channel):
 
 def SSIM(img1, img2):
     (_, channel, _, _) = img1.size()
+    print(channel)
     window_size = 11
     window = create_window(window_size, channel)
 
